@@ -85,7 +85,7 @@ hr{
     font-weight: 100;
     margin-left: 60px;
 }
-#donate-plan{
+#donate-plan, #my-updates{
     text-align: center;
     margin-top: 200px;
 }
@@ -112,4 +112,48 @@ hr{
 }
 .card-3{
     background: rgba(255, 254, 187, 0.253);
+}
+
+#my-updates h1{
+    font-weight: 700;
+    font-size:40px;
+}
+#my-updates p{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.update-form{
+    height: 200px;
+    width:1000px;
+    background: rgba(252, 167, 56, 0.233);
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+.form-email-bg{
+    background: rgba(207, 206, 206, 0.473);
+    border: 0;
+    margin-top: 80px;
+    font-size: 20px;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+.email-subscribe{
+    background: #ff674c;
+    color: #ffffff;
+    padding: 15px 10px;
+}
+footer{
+    background: black;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer h1{
+    color: #ff674c;
+    font-family: 'Splash', cursive;
+}
+footer p{
+    margin: 0;
+    color: #ffffff;
 }
