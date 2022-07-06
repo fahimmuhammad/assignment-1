@@ -40,6 +40,7 @@ body{
     padding-left: 20%;
     padding-right: 20%;
     padding-top:5%;
+    
 }
 
 .donate-today-text h1{
@@ -49,23 +50,29 @@ body{
 .donate-today-text p{
     color:#333;
     font-weight: 500;
-    padding-left:20%;
-    padding-right:20%;
+    padding-left:10%;
+    padding-right:10%;
+}
+.donate-today-amount{
+    width: 100%;
+    
 }
 .donate-today-amount ul{
     margin-top: 70px;
-    width: max-content;
+    width: 100%;
+    display: flex;
 }
 .donate-today-amount ul li{
     list-style-type: none;
-    display: inline;
+    display: block;
     background-color: rgba(211, 211, 211, 0.151);
     margin-right: 20px;
-    padding: 35px 20px;
+    padding: 35px 10px;
     color:#333;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 20px;
     border-radius: 5px;
+    width:100%
 }
 .donate-today-amount ul li:nth-child(2){
     border: 2px solid #ff674c;
