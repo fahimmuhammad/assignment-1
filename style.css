@@ -157,3 +157,32 @@ footer p{
     margin: 0;
     color: #ffffff;
 }
+
+#gallery-title{
+    text-align: center;
+    margin-top: 200px;
+}
+#gallery-title h1{
+    font-size: 40px;
+}
+
+.row-1, .row-2{
+    display:flex;
+    width: 30%;
+}
+.row-1 img{
+    width: 100%;
+    height: auto;
+    padding-left: 40px;
+    padding-right: 10px;
+}
+.row-1 img:hover, .row-2 img:hover{
+    opacity: .7;
+}
+.row-2 img{
+    width: 100%;
+    height: auto;
+    padding-left: 40px;
+    padding-right: 10px;
+    margin-top:20px;
+}
